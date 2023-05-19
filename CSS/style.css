@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html {
+    font-size: 16px;
+}
+
 ul {
     list-style: none;
 }
@@ -12,20 +16,16 @@ a {
     text-decoration: none;
 }
 
-.wrapper-width {
-    width: 1424px;
-    text-align: center;
-}
-
 /* grid */
 .row {
     display: flex;
     justify-content: space-between;
-    margin: 0 6px;
+    margin: 0 10px;
 }
 
 .column {
-    margin: 0 6px;
+    flex-basis: 25%;
+    margin: 0 10px;
 }
 
 .wrapper {
@@ -41,6 +41,7 @@ header {
     background-color: #fff;
     display: flex;
     width: 100%;
+    z-index: 10;
 }
 
 .container {
@@ -48,7 +49,6 @@ header {
     display: inline-flex;
     justify-content: space-between;
     height: 71px;
-    width: 1424px;
     align-items: center;
 }
 
@@ -65,6 +65,10 @@ header {
     font-size: 22px;
     color: #000;
     font-weight: 500;
+}
+
+.navbar-link:hover {
+    text-decoration: underline;
 }
 
 .container-search {
@@ -98,32 +102,33 @@ header {
     justify-content: center;
 }
 
-.slider {
+.slider-1 {
     height: 1000px;
-    background: url(https://cdnimg.vietnamplus.vn/uploaded/xpcwvovt/2018_05_17/son_tung_5.jpg) no-repeat center /cover;
+    background: url(/imgs/sontung.jpg) no-repeat center /cover;
     z-index: 1;
     width: 100%;
 }
 
 .featured-category {
-
+    margin-top: 84px;
 }
 
 .featured-category-heading {
     text-align: start;
     margin-left: 12px;
-}
-
-.featured-category-list {
-
+    margin-bottom: 26px;
 }
 
 .featured-category-item {
-    border: 1px solid #333;
+    box-shadow: 0 1px 2px #000;
+    padding: 12px;
+    position: relative;
 }
 
 .featured-category-item img {
-    width: 100%;
+    width: 331px;
+    height: 264px;
+    object-fit: cover;
 }
 
 .featured-category-item span {
@@ -131,16 +136,72 @@ header {
     font-weight: 600;
 }
 
-.featured-category-description {
+.featured-category-new {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f74e4e;
+    color: #fff;
+    display: block;
+    padding: 6px 12px;
+}
 
+.slider-2 {
+    height: 1000px;
+    background: url(/imgs/Banner-Aristino-slide2-desktop-1920x850x0x0x2.webp) no-repeat center /cover;
+    z-index: 1;
+    width: 100%;
+    margin-top: 84px;
+}
+
+.slider-3 {
+    height: 1000px;
+    background: url(/imgs/slider3.jpg) no-repeat center /cover;
+    z-index: 1;
+    width: 100%;
+    margin-top: 84px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+.slider-3 h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.slider-3 p {
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 36px;
+    padding: 12px 2px;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+    position: relative;
 }
 
 
 /* footer */
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 156px;
+    padding: 0 182px;
+}
 
+.footer-descript {
+    text-align: center;
+    margin-top: 24px;
 }
 
 .enable {
     color: #EA132C;
+}
+
+.wrapper-width {
+    margin: auto;
+    width: 1424px;
 }
