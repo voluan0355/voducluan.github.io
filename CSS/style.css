@@ -129,7 +129,7 @@ header {
 }
 
 .featured-category-item-img1 {
-    width: 331px;
+    width: 100%;
     height: 264px;
     object-fit: cover;
 }
@@ -139,7 +139,7 @@ header {
 }
 
 .featured-category-list-img2 {
-    width: 331px;
+    width: 100%;
     object-fit: cover;
 }
 
