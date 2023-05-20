@@ -72,7 +72,6 @@ header {
 }
 
 .container-search {
-    width: 180px;
     height: 32px;
     display: flex;
     justify-content: space-between;
