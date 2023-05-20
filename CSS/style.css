@@ -44,6 +44,11 @@ header {
     z-index: 10;
 }
 
+.logo {
+    font-size: 23px;
+    font-weight: 600;
+}
+
 .container {
     margin: auto;
     display: inline-flex;
