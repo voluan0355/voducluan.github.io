@@ -123,9 +123,18 @@ header {
     position: relative;
 }
 
-.featured-category-item img {
+.featured-category-item-img1 {
     width: 331px;
     height: 264px;
+    object-fit: cover;
+}
+
+.featured-category-description {
+    margin-top: 24px;
+}
+
+.featured-category-list-img2 {
+    width: 331px;
     object-fit: cover;
 }
 
