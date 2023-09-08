@@ -73,13 +73,13 @@ body {
 
 .name {
     color: #fff;
-    transform: translateX(-60vw);
+    transform: translateX(-70vw);
     animation: translate 2s linear forwards;
 }
 
 .sub-name {
     color: #fff;
-    transform: translateX(60vw);
+    transform: translateX(70vw);
     animation: translate 2s linear forwards;
 }
 
